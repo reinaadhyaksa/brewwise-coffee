@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --coffee-brown: #3a2e26;
+  --coffee-cream: #f9f5f0;
+  --coffee-beige: #e6d5c3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--coffee-cream);
+  color: var(--coffee-brown);
+}
+
+.title-font {
+  font-family: 'Playfair Display', serif;
+}
+
+.coffee-brown {
+  background-color: var(--coffee-brown);
+}
+
+.coffee-cream {
+  background-color: var(--coffee-cream);
+}
+
+.coffee-beige {
+  background-color: var(--coffee-beige);
+}
+
+.text-coffee {
+  color: var(--coffee-brown);
+}
+
+.text-cream {
+  color: var(--coffee-cream);
+}
+
+.text-beige {
+  color: var(--coffee-beige);
+}
